@@ -1,2 +1,2 @@
-require("ramoji.lazy")
 require("ramoji.options")
+require("ramoji.lazy")
