@@ -3,12 +3,7 @@ return {
 	"nvim-lua/plenary.nvim", -- lua functions that many plugins use
     "microsoft/python-type-stubs",
 
-	{
-		"xiyaowong/transparent.nvim",
-		config = function()
-			require("transparent").setup()
-		end,
-	},
+    "xiyaowong/transparent.nvim",
 
 	"christoomey/vim-tmux-navigator", -- tmux & split window navigation
 	-- split maximizer
